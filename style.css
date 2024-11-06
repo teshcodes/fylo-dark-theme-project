@@ -3,13 +3,15 @@ body {
     margin: 0;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    text-align: center; 
 }
 
 .overall-container {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 /* -----header---====== */
@@ -36,11 +38,15 @@ span {
 }
 
 /* =========-----------intro */
+.intro-content-container  {
+    justify-content: center;
+}
+
 .illustration-image {
-    width: 270px;
+    width: 290px;
     height: 220px;
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: 25px;
 
 }
 
@@ -50,50 +56,44 @@ span {
     font-size: 24px;
     line-height: 29px;
     font-weight: bold;
-    padding-top: 40px;
+    margin-top: 40px;
+    width: 300px;
 }
-
-.image-background {
-    margin-left: -50px;
-    width: 350px;
+/* 
+ .image-background {
+    width: 355px;
     height: 200px;
     padding-top: 150px;
-    margin-bottom: -145%;
-}
+    margin-bottom: 100%;
+    justify-content: center;
+} */
 
 .fylo-box {
     color: hsl(0, 0%, 100%);
-    margin-top: 20px;
     text-align: center;
+    justify-content: center;
+    margin-top: 20px;
     width: 295px;
-    margin-left: -10px;
-}
-
-.secure-location {
-    font-size: 16.5px;
-}
-
-.share-with-friend {
-    font-size: 16.5px;
+    padding-left: 18px;
 }
 
 .start-button {
     text-align: center;
     color: hsl(0, 0%, 100%);
     margin-top: 30px;
-    margin-left: 22px;
-    width: 230px;
+    margin-left: 10px;
     height: 36px;
     border-radius: 30px;
     padding-top: 15px;
     background-color: hsl(198, 60%, 50%);
+    justify-content: center;
 }
 
 /* ========access your file anywhere */
 .access-image {
     margin-top: 130px;
-    margin-left: 100px;
     height: 70px;
+    text-align: center;
 }
 
 .access-header {
@@ -108,6 +108,7 @@ span {
     color: hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 10px;
+    margin-left: 18px;
     width: 290px;
     line-height: 20px;
 }
@@ -115,7 +116,6 @@ span {
 /* ===========security you can trust */
 .security-image {
     margin-top: 100px;
-    margin-left: 110px;
     height: 70px;
 }
 
@@ -131,6 +131,7 @@ span {
     color: hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 10px;
+    margin-left: 20px;
     width: 290px;
     line-height: 21px;
 }
@@ -138,7 +139,6 @@ span {
 /* ==========real-time collaboration */
 .collaboration-image {
     margin-top: 100px;
-    margin-left: 110px;
     height: 70px;
 }
 
@@ -153,17 +153,15 @@ span {
 .collaboration-box {
     color: hsl(0, 0%, 100%);
     text-align: center;
+    justify-content: center;
     margin-top: 10px;
-    width: 290px;
     line-height: 21px;
     width: 310px;
-    margin-left: -15px;
 }
 
 /* =========store any type of file */
 .storage-image {
     margin-top: 100px;
-    margin-left: 95px;
     height: 70px;
 }
 
@@ -178,12 +176,10 @@ span {
 .storage-box  {
     color: hsl(0, 0%, 100%);
     text-align: center;
+    align-items: center;
     margin-top: 10px;
-    width: 290px;
     line-height: 21px;
     width: 318px;
-    margin-left: -23px;
-    padding-left: 2px;
 }
 
 .illustration-background-image   {
@@ -203,9 +199,11 @@ span {
 .productive-box  {
     color: whitesmoke;
     margin-top: 15px;
-    margin-left: -12px;
+    /* margin-left: -12px; */
     width: 308px;
     line-height: 20px;
+    justify-content: start;
+    border: 2px solid green;
 }
 
 .productive-box-two  {
@@ -238,15 +236,49 @@ span {
 }
 
 .quote-image  {
+    justify-self: start;
     margin-top: 150px;
     width: 20px;
+    justify-self: start:
+    /* margin-left: -200px; */
 }
 
 .satish-message  {
     border: 2px solid green;
     height: 150px;
-    width: 280px;
-    margin-left: -10px;
-    padding-top: 20px;
-    padding-left: 15px;
+    width: 264px;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    color: whitesmoke;
+    font-size: small;
+    line-height: 20px;
+}
+
+/* =======profile-one====== */
+.overall-profile-one  {
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+.profile-one  {
+    display: flex;
+    gap: 10px;
+    width: 240px;
+}
+
+.satish-image  {
+    width: 27px;
+    height: 26px;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.founder-name  {
+    color: white;
+}
+
+.founder-tittle  {
+    margin-top: -15px;
+    margin-left: -89px;
+    font-size: x-small;
 }
