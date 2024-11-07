@@ -1,9 +1,10 @@
 body {
-    background-color: hsl(219, 30%, 18%);
+    background-color: hsl(218, 28%, 13%);
     margin: 0;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+    width: 100%;
 }
 
 .overall-container {
@@ -38,7 +39,7 @@ span {
 }
 
 /* =========-----------intro */
-.intro-content-container  {
+.intro-content-container {
     justify-content: center;
 }
 
@@ -50,35 +51,50 @@ span {
 
 }
 
+/* ========main content */
+.main-content {
+    width: 100%;
+}
+
+.intro-container {
+    background-color: hsl(217, 28%, 15%);
+    width: 112%;
+    height: 400px;
+    margin-left: -20px;
+    overflow: hidden;
+}
+
 .intro-box {
     color: hsl(0, 0%, 100%);
     text-align: center;
+    padding-left: 15px;
     font-size: 24px;
     line-height: 29px;
     font-weight: bold;
     margin-top: 40px;
+    max-width: 100%;
     width: 300px;
+    justify-self: center;
 }
-/* 
- .image-background {
+
+/* .image-background {
     width: 355px;
     height: 200px;
     padding-top: 150px;
     margin-bottom: 100%;
     justify-content: center;
-} */
+}  */
 
 .fylo-box {
     color: hsl(0, 0%, 100%);
-    text-align: center;
-    justify-content: center;
+    justify-self: center;
     margin-top: 20px;
     width: 295px;
-    padding-left: 18px;
+    max-width: 100%;
 }
 
 .start-button {
-    text-align: center;
+    width: 300px;
     color: hsl(0, 0%, 100%);
     margin-top: 30px;
     margin-left: 10px;
@@ -86,14 +102,14 @@ span {
     border-radius: 30px;
     padding-top: 15px;
     background-color: hsl(198, 60%, 50%);
-    justify-content: center;
+    justify-self: center;
 }
 
 /* ========access your file anywhere */
 .access-image {
     margin-top: 130px;
     height: 70px;
-    text-align: center;
+    justify-self: center;
 }
 
 .access-header {
@@ -106,10 +122,11 @@ span {
 
 .access-box {
     color: hsl(0, 0%, 100%);
-    text-align: center;
+    justify-self: center;
     margin-top: 10px;
     margin-left: 18px;
     width: 290px;
+    max-width: 100%;
     line-height: 20px;
 }
 
@@ -129,10 +146,10 @@ span {
 
 .security-box {
     color: hsl(0, 0%, 100%);
-    text-align: center;
+    justify-self: center;
     margin-top: 10px;
-    margin-left: 20px;
     width: 290px;
+    max-width: 100%;
     line-height: 21px;
 }
 
@@ -152,11 +169,12 @@ span {
 
 .collaboration-box {
     color: hsl(0, 0%, 100%);
-    text-align: center;
+    justify-self: center;
     justify-content: center;
     margin-top: 10px;
     line-height: 21px;
     width: 310px;
+    max-width: 100%;
 }
 
 /* =========store any type of file */
@@ -165,7 +183,7 @@ span {
     height: 70px;
 }
 
-.storage-header  {
+.storage-header {
     color: hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 30px;
@@ -173,78 +191,128 @@ span {
     font-weight: bold;
 }
 
-.storage-box  {
+.storage-box {
     color: hsl(0, 0%, 100%);
-    text-align: center;
-    align-items: center;
+    justify-self: center;
     margin-top: 10px;
     line-height: 21px;
     width: 318px;
+    max-width: 100%;
 }
 
-.illustration-background-image   {
+.illustration-background-image {
     width: 280px;
     margin-top: 130px;
 }
 
 /* =======stay productive, wherever you go */
-.stay-productive-header  {
+.stay-productive-header {
     color: hsl(0, 0%, 100%);
     font-size: 19px;
     font-weight: bold;
-    margin-left: -10px;
+    margin-left: -18%;
     margin-top: 30px;
 }
 
-.productive-box  {
+.productive-box {
     color: whitesmoke;
     margin-top: 15px;
-    /* margin-left: -12px; */
     width: 308px;
+    max-width: 100%;
     line-height: 20px;
-    justify-content: start;
-    border: 2px solid green;
+    text-align: start;
 }
 
-.productive-box-two  {
+.productive-box-two {
     color: whitesmoke;
     margin-top: 15px;
-    margin-left: -12px;
+    /* justify-self: center; */
+    max-width: 100%;
     width: 308px;
     line-height: 20px;
+    text-align: start;
 }
 
 /* ======directory message */
-.directory-box  {
+.message-plus-line {}
+
+.directory-box {
     display: flex;
     margin-top: 20px;
     gap: 10px;
+    margin-left: 12px;
 }
 
-.directory-message  {
+.directory-message {
     color: hsl(176, 68%, 64%);
 }
 
-.straight-line  {
+.straight-line {
     width: 153px;
     border: 1px solid hsl(176, 51%, 33%);
-    margin-left: 0px;
+    margin-left: 12px;
 }
 
-.message-plus-line  {
+.message-plus-line {
     margin-left: -12px;
 }
 
-.quote-image  {
+.quote-image {
     justify-self: start;
     margin-top: 150px;
     width: 20px;
-    justify-self: start:
-    /* margin-left: -200px; */
+    margin-left: -90%;
+    margin-bottom: -6px;
 }
 
-.satish-message  {
-    border: 2px solid green;
+.member-testimonies-box {
+    align-items: center;
+    padding-left: 10px;
+}
+
+.satish-testimnoial {
+    height: 150px;
+    width: 264px;
+    padding: 20px 20px 0px 20px;
+    color: whitesmoke;
+    font-size: small;
+    line-height: 20px;
+    background-color: hsl(219, 30%, 18%);
+    text-align: start;
+    border-radius: 5px;
+}
+
+/* =======profile-one====== */
+.overall-profile-one {
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+.profile-one {
+    display: flex;
+    gap: 10px;
+    width: 240px;
+}
+
+.satish-image {
+    width: 27px;
+    height: 26px;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.founder-name {
+    color: white;
+}
+
+.founder-tittle {
+    margin-top: -15px;
+    margin-left: 37px;
+    font-size: x-small;
+}
+
+/* ======bruce */
+.bruce-testimnoial {
     height: 150px;
     width: 264px;
     text-align: center;
@@ -252,33 +320,306 @@ span {
     color: whitesmoke;
     font-size: small;
     line-height: 20px;
+    background-color: hsl(219, 30%, 18%);
+    margin-top: 20px;
+    text-align: start;
+    border-radius: 5px;
 }
 
 /* =======profile-one====== */
-.overall-profile-one  {
+.overall-profile-two {
     margin-top: 10px;
     padding-left: 2px;
 }
 
-.profile-one  {
+.profile-two {
     display: flex;
     gap: 10px;
     width: 240px;
 }
 
-.satish-image  {
+.bruce-image {
     width: 27px;
     height: 26px;
     border-radius: 20px;
     padding-top: 5px;
 }
 
-.founder-name  {
+.founder-name-two {
     color: white;
 }
 
-.founder-tittle  {
+.founder-tittle-two {
     margin-top: -15px;
-    margin-left: -89px;
+    margin-left: 37px;
     font-size: x-small;
+}
+
+/* ======iva */
+.iva-testimnoial {
+    height: 150px;
+    width: 264px;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    color: whitesmoke;
+    font-size: small;
+    line-height: 20px;
+    background-color: hsl(219, 30%, 18%);
+    margin-top: 20px;
+    text-align: start;
+    border-radius: 5px;
+}
+
+/* =======profile-one====== */
+.overall-profile-three {
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+.profile-three {
+    display: flex;
+    gap: 10px;
+    width: 240px;
+}
+
+.iva-image {
+    width: 27px;
+    height: 26px;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.founder-name-three {
+    color: white;
+}
+
+.founder-tittle-three {
+    margin-top: -15px;
+    margin-left: 37px;
+    font-size: x-small;
+}
+
+
+/* =======footer content */
+.footer-content {}
+
+/* ======account set up */
+.account-set-up {
+    color: white;
+    margin-top: 100px;
+    padding-top: 20px;
+    height: 400px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: hsl(218, 28%, 13%);
+    position: relative;
+    border: 4px solid hsl(218, 28%, 13%);
+    box-shadow: 1px 1px 2px;
+}
+
+.early-access {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.setting-up {
+    width: 300px;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-left: 12px;
+    line-height: 24px;
+}
+
+.gmail-account-button {
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 30px;
+    padding-top: 20px;
+    text-align: start;
+    padding-left: 30px;
+    font-size: 15px;
+    background-color: white;
+    width: 250px;
+    margin-left: 23px;
+    color: rgb(208, 193, 193);
+}
+
+.start-up-button {
+    margin-top: 25px;
+    height: 38px;
+    border-radius: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: hsl(198, 60%, 50%);
+    width: 280px;
+    margin-left: 23px;
+}
+
+/* =======footer-container */
+.overall-footer-container {
+    width: 112%;
+    margin-left: -20px;
+    margin-top: -62%;
+    background-color: hsl(216, 53%, 9%);
+    margin-bottom: -20%;
+}
+
+.footer-container {
+    padding-left: 25px;
+    padding-top: 75%;
+
+}
+
+.logo-image {
+    /* margin-top: 70px; */
+    width: 200px;
+    margin-left: -35%;
+}
+
+/* =====loaction */
+.location-container {
+    display: flex;
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.location-image {
+    height: 25px;
+}
+
+.location-box {
+    text-align: start;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* =======phone */
+.phone-container {
+    display: flex;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.telephone-image {
+    height: 20px;
+}
+
+.phone-number {
+    color: white;
+    font-size: 20px;
+}
+
+/* ======email */
+.email-container {
+    display: flex;
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.email-image {
+    height: 20px;
+}
+
+.email-account {
+    color: white;
+    font-size: 20px;
+}
+
+/* =======about-us */
+.about-us-container {
+    margin-top: 80px;
+    text-align: start;
+    color: white;
+    font-size: 22px;
+}
+
+/* ======contact-us */
+.contact-us-container {
+    margin-top: 70px;
+    text-align: start;
+    color: white;
+    font-size: 22px;
+}
+
+.social-logo {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.facebook-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.twitter-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.instagram-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: none;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .intro-content-container {
+        /* background-color: hsl(176, 68%, 64%); */
+        /* position: relative; */
+    }
+
+    .intro-main-container {
+        background-color: hsl(217, 28%, 15%);
+        border: 2px solid green;
+        /* width: 100%; */
+    }
+
+    .header-box {
+        background-color: hsl(218, 28%, 13%);
+    }
+
+    .fylo-image {
+        width: 150px;
+        height: 50px;
+        padding-top: 17px;
+        padding-left: 50px;
+    }
+
+    .header {
+        color: hsl(0, 2%, 84%);
+        padding-right: 50px;
+        padding-top: 20px;
+        font-size: small;
+        word-spacing: 20px;
+    }
+
+    .illustration-image {
+        width: 490px;
+        height: 420px;
+        margin-top: 30px;
+
+    }
+
+    .intro-container  {
+        overflow: hidden;
+    }
+
 }
