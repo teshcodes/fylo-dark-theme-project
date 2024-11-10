@@ -1,0 +1,474 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    margin: 0 auto;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(217, 28%, 15%);
+    padding: 30px 35px 40px 25px;
+    color: white;
+}
+
+.intro-logo {
+    width: 70px;
+}
+
+.intro-content {
+    color: whitesmoke;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.intro-box {
+    display: flex;
+    gap: 20px;
+}
+
+/* ===========illustration-image================ */
+.illustration-intro-box {
+    justify-self: center;
+    width: 100%;
+    background-color: hsl(217, 28%, 15%);
+
+}
+
+.illustration-intro {
+    width: 300px;
+    margin-left: 40px;
+    position: relative;
+}
+
+/* ==========curvy-image============ */
+.curvy-mobile-box {
+    background-color: hsl(217, 28%, 15%);
+}
+
+.curvy-mobile {
+    margin-top: -40px;
+}
+
+/* ==========intro bold content============ */
+.intro-content-container {
+    width: 100%;
+    margin-top: -70px; 
+}
+
+.intro-content-box {
+    color: white;
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+/* =========intro fade content========= */
+.intro-fade-container  {
+    width: 100%;
+    margin-top: -43px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.intro-fade-box  {
+    color: white;
+    text-align: center;
+    padding: 60px 40px 0px 40px;
+    line-height: 21px;
+    opacity: 0.8;
+}
+
+.get-stsrted-button  {
+    color: white;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    background-color: hsl(198, 60%, 50%);
+    padding: 15px 0px 15px 0px;
+    width: 220px;
+    justify-self: center;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* ==============access your files, anywhere */
+.access-container  {
+     margin-top: 150px;
+}
+
+.access-image  {
+    justify-self: center;
+}
+
+.access-header  {
+    text-align: center;
+    color: white;
+    margin-top: 30px; 
+    font-size: 20px;
+}
+
+.access-box  {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 40px 0px 40px;
+    font-size: 15px;
+
+}
+
+/* ==============security you can trust */
+.security-container  {
+     margin-top: 100px;
+}
+
+.security-image  {
+    justify-self: center;
+}
+
+.security-header  {
+    text-align: center;
+    color: white;
+    margin-top: 30px; 
+    font-size: 20px;
+}
+
+.security-box  {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 40px 0px 40px;
+    font-size: 15px;
+
+}
+
+/* ==============real-time collaboration */
+.collaboration-container  {
+     margin-top: 100px;
+}
+
+.collaboration-image  {
+    justify-self: center;
+}
+
+.collaboration-header  {
+    text-align: center;
+    color: white;
+    margin-top: 30px; 
+    font-size: 20px;
+}
+
+.collaboration-box  {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 37px 0px 37px;
+    font-size: 15px;
+}
+
+/* <!-- ===========stay productive, wherever you are=============== --> */
+.illustration-container  {
+    margin-top: 150px;
+    justify-self: center; 
+}
+
+.illustration-image  {
+    width: 300px;
+    
+}
+
+.stay-productive-header  {
+    color: white;
+    padding: 0px 25px 0px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.stay-productive-content-one  {
+    color: white;
+    margin-top: 20px;
+    padding: 0px 25px 0px 25px;
+}
+
+.stay-productive-content-two  {
+    color: white;
+    margin-top: 20px;
+    padding: 0px 25px 0px 25px;
+}
+
+/* ========directory-content============== */
+.overall-directory  {
+    margin-top: 20px;
+    padding: 0px 198px 0px 25px;
+}
+
+.directory-container  {
+    display: flex;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid  hsl(176, 68%, 64%);
+    gap: 5px; 
+    font-size: 15px;
+}
+
+.directory-content  {
+    margin-bottom: 5px;
+}
+
+/* ================testimonies==================== */
+.testimonies-container  {
+    padding-bottom: 100%;
+}
+
+.quote-image  {
+    width: 20px;
+    margin-left: 30px;
+}
+
+/* ============patel testimony */
+.patel-container  {
+    margin-top: 50%;
+}
+
+.patel-testimony  {
+    color: rgb(216, 211, 211);
+    line-height: 23px;
+    font-size: 13px;
+    justify-self: center;
+    justify-self: center;
+    padding: 30px 25px 0px 33px;
+    margin: 0px 25px 0px 25px;
+    max-width: 310px;
+    height: 165px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-top: -7px;
+    position: relative;
+}
+
+.profile-one  {
+    color: white;
+    display: flex;
+    padding: 0px 60px 0px 60px;
+    gap: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.patel-image  {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.profile-name  {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-title  {
+    margin-top: 17px;
+    margin-left: -80px;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* ============bruce testimony */
+.bruce-container  {
+    margin-top: 50px;
+}
+
+.bruce-testimony  {
+    color: rgb(216, 211, 211);
+    line-height: 23px;
+    font-size: 13px;
+    justify-self: center;
+    justify-self: center;
+    padding: 30px 25px 0px 33px;
+    margin: 0px 25px 0px 25px;
+    max-width: 310px;
+    height: 165px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-top: -7px;
+    position: relative;
+}
+
+.profile-two  {
+    color: white;
+    display: flex;
+    padding: 0px 60px 0px 60px;
+    gap: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.bruce-image  {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.profile-2-name  {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-2-title  {
+    margin-top: 17px;
+    margin-left: -42%;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* ============bruce testimony */
+.iva-container  {
+    margin-top: 50px;
+}
+
+.iva-testimony  {
+    color: rgb(216, 211, 211);
+    line-height: 23px;
+    font-size: 13px;
+    justify-self: center;
+    justify-self: center;
+    padding: 30px 25px 0px 33px;
+    margin: 0px 25px 0px 25px;
+    max-width: 310px;
+    height: 165px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-top: -7px;
+    position: relative;
+}
+
+.profile-three  {
+    color: white;
+    display: flex;
+    padding: 0px 60px 0px 60px;
+    gap: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.iva-image  {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.profile-3-name  {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-3-title  {
+    margin-top: 17px;
+    margin-left: -25%;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* ===========get early access today========== */
+.call-to-action-container  {
+    text-align: center;
+    margin: -180px 20px 0px 20px;
+    padding: 30px 0px 40px 0px;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+    position: relative;
+}
+
+.early-access  {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.call-to-action  {
+    color:  rgb(216, 211, 211);
+    margin-top: 20px;
+    padding: 0px 25px 0px 25px;
+}
+
+.email-account  {
+    color: rgb(185, 176, 176);
+    padding: 15px 0px 15px 23px;
+    margin: 30px 30px 0px 30px;
+    border-radius: 30px;
+    text-align: start;
+    font-size: 13px;
+    background-color: white;
+}
+
+.call-to-action-button  {
+    color: white;
+    margin-top: 30px;
+    padding: 15px 0px 15px 0px;
+    margin: 30px 30px 0px 30px;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+}
+
+/* ==================fylo footer========= */
+.footer-container  {
+    padding: 80% 0% 0% 0%;
+    background-color: hsl(216, 53%, 9%);
+    margin-top: -43%;
+}
+
+.footer-logo-box  {
+    padding-left: 40px;
+}
+
+.footer-logo-image  {
+
+}
+
+.icon-location-container  {
+     display: flex;
+     gap: 20px;
+     padding-left: 30px;
+     margin-top: 30px;
+}
+
+.location-address  {
+    color: white;
+    padding: 0px 60px 0px 0px;
+    line-height: 21px;
+}
+
+.icon-phone-container  {
+    padding-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.phone-number  {
+    color: white;
+}
+
+.icon-email-container  {
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.icon-email-account  {
+    color: white;
+}
+
+.information-one  {
+     color: white;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.information-two  {
+     color: white;
+     padding-left: 30px;
+     margin-top: 30px;
+}
+
+.footer-images  {
+    text-align: center;
+    margin-top: 90px;
+}
