@@ -1,6 +1,8 @@
 body {
     background-color: hsl(218, 28%, 13%);
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-container {
@@ -52,7 +54,7 @@ body {
 /* ==========intro bold content============ */
 .intro-content-container {
     width: 100%;
-    margin-top: -70px; 
+    margin-top: -70px;
 }
 
 .intro-content-box {
@@ -65,13 +67,13 @@ body {
 }
 
 /* =========intro fade content========= */
-.intro-fade-container  {
+.intro-fade-container {
     width: 100%;
     margin-top: -43px;
     background-color: hsl(218, 28%, 13%);
 }
 
-.intro-fade-box  {
+.intro-fade-box {
     color: white;
     text-align: center;
     padding: 60px 40px 0px 40px;
@@ -79,7 +81,7 @@ body {
     opacity: 0.8;
 }
 
-.get-stsrted-button  {
+.get-stsrted-button {
     color: white;
     margin: 30px 0px 0px 0px;
     text-align: center;
@@ -92,22 +94,22 @@ body {
 }
 
 /* ==============access your files, anywhere */
-.access-container  {
-     margin-top: 150px;
+.access-container {
+    margin-top: 150px;
 }
 
-.access-image  {
+.access-image {
     justify-self: center;
 }
 
-.access-header  {
+.access-header {
     text-align: center;
     color: white;
-    margin-top: 30px; 
+    margin-top: 30px;
     font-size: 20px;
 }
 
-.access-box  {
+.access-box {
     color: rgb(243, 226, 226);
     text-align: center;
     margin-top: 10px;
@@ -117,22 +119,22 @@ body {
 }
 
 /* ==============security you can trust */
-.security-container  {
-     margin-top: 100px;
+.security-container {
+    margin-top: 100px;
 }
 
-.security-image  {
+.security-image {
     justify-self: center;
 }
 
-.security-header  {
+.security-header {
     text-align: center;
     color: white;
-    margin-top: 30px; 
+    margin-top: 30px;
     font-size: 20px;
 }
 
-.security-box  {
+.security-box {
     color: rgb(243, 226, 226);
     text-align: center;
     margin-top: 10px;
@@ -142,22 +144,46 @@ body {
 }
 
 /* ==============real-time collaboration */
-.collaboration-container  {
-     margin-top: 100px;
+.collaboration-container {
+    margin-top: 100px;
 }
 
-.collaboration-image  {
+.collaboration-image {
     justify-self: center;
 }
 
-.collaboration-header  {
+.collaboration-header {
     text-align: center;
     color: white;
-    margin-top: 30px; 
+    margin-top: 30px;
     font-size: 20px;
 }
 
-.collaboration-box  {
+.collaboration-box {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 37px 0px 37px;
+    font-size: 15px;
+}
+
+/* ==============store any type of file */
+.store-container {
+    margin-top: 100px;
+}
+
+.store-image {
+    justify-self: center;
+}
+
+.store-header {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.store-box {
     color: rgb(243, 226, 226);
     text-align: center;
     margin-top: 10px;
@@ -166,17 +192,17 @@ body {
 }
 
 /* <!-- ===========stay productive, wherever you are=============== --> */
-.illustration-container  {
+.illustration-container {
     margin-top: 150px;
-    justify-self: center; 
+    justify-self: center;
 }
 
-.illustration-image  {
+.illustration-image {
     width: 300px;
-    
+
 }
 
-.stay-productive-header  {
+.stay-productive-header {
     color: white;
     padding: 0px 25px 0px 25px;
     font-size: 20px;
@@ -184,52 +210,52 @@ body {
     margin-top: 40px;
 }
 
-.stay-productive-content-one  {
+.stay-productive-content-one {
     color: white;
     margin-top: 20px;
     padding: 0px 25px 0px 25px;
 }
 
-.stay-productive-content-two  {
+.stay-productive-content-two {
     color: white;
     margin-top: 20px;
     padding: 0px 25px 0px 25px;
 }
 
 /* ========directory-content============== */
-.overall-directory  {
+.overall-directory {
     margin-top: 20px;
     padding: 0px 198px 0px 25px;
 }
 
-.directory-container  {
+.directory-container {
     display: flex;
     color: hsl(176, 68%, 64%);
-    border-bottom: 2px solid  hsl(176, 68%, 64%);
-    gap: 5px; 
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    gap: 5px;
     font-size: 15px;
 }
 
-.directory-content  {
+.directory-content {
     margin-bottom: 5px;
 }
 
 /* ================testimonies==================== */
-.testimonies-container  {
+.testimonies-container {
     padding-bottom: 100%;
 }
 
-.quote-image  {
+.quote-image {
     width: 20px;
     margin-left: 30px;
 }
 
 /* ============patel testimony */
-.patel-container  {
+.patel-container {
     margin-top: 50%;
 }
 
-.patel-testimony  {
+.patel-testimony {
     color: rgb(216, 211, 211);
     line-height: 23px;
     font-size: 13px;
@@ -245,7 +271,7 @@ body {
     position: relative;
 }
 
-.profile-one  {
+.profile-one {
     color: white;
     display: flex;
     padding: 0px 60px 0px 60px;
@@ -254,17 +280,17 @@ body {
     position: relative;
 }
 
-.patel-image  {
+.patel-image {
     width: 30px;
     border-radius: 20px;
 }
 
-.profile-name  {
+.profile-name {
     font-size: 14px;
     font-weight: bold;
 }
 
-.profile-title  {
+.profile-title {
     margin-top: 17px;
     margin-left: -80px;
     font-size: 10px;
@@ -272,11 +298,11 @@ body {
 }
 
 /* ============bruce testimony */
-.bruce-container  {
+.bruce-container {
     margin-top: 50px;
 }
 
-.bruce-testimony  {
+.bruce-testimony {
     color: rgb(216, 211, 211);
     line-height: 23px;
     font-size: 13px;
@@ -292,7 +318,7 @@ body {
     position: relative;
 }
 
-.profile-two  {
+.profile-two {
     color: white;
     display: flex;
     padding: 0px 60px 0px 60px;
@@ -301,17 +327,17 @@ body {
     position: relative;
 }
 
-.bruce-image  {
+.bruce-image {
     width: 30px;
     border-radius: 20px;
 }
 
-.profile-2-name  {
+.profile-2-name {
     font-size: 14px;
     font-weight: bold;
 }
 
-.profile-2-title  {
+.profile-2-title {
     margin-top: 17px;
     margin-left: -42%;
     font-size: 10px;
@@ -319,11 +345,11 @@ body {
 }
 
 /* ============bruce testimony */
-.iva-container  {
+.iva-container {
     margin-top: 50px;
 }
 
-.iva-testimony  {
+.iva-testimony {
     color: rgb(216, 211, 211);
     line-height: 23px;
     font-size: 13px;
@@ -339,7 +365,7 @@ body {
     position: relative;
 }
 
-.profile-three  {
+.profile-three {
     color: white;
     display: flex;
     padding: 0px 60px 0px 60px;
@@ -348,17 +374,17 @@ body {
     position: relative;
 }
 
-.iva-image  {
+.iva-image {
     width: 30px;
     border-radius: 20px;
 }
 
-.profile-3-name  {
+.profile-3-name {
     font-size: 14px;
     font-weight: bold;
 }
 
-.profile-3-title  {
+.profile-3-title {
     margin-top: 17px;
     margin-left: -25%;
     font-size: 10px;
@@ -366,28 +392,28 @@ body {
 }
 
 /* ===========get early access today========== */
-.call-to-action-container  {
+.call-to-action-container {
     text-align: center;
-    margin: -180px 20px 0px 20px;
+    margin: -120px 20px 0px 20px;
     padding: 30px 0px 40px 0px;
     background-color: hsl(217, 28%, 15%);
     border-radius: 10px;
     position: relative;
 }
 
-.early-access  {
+.early-access {
     color: white;
     font-size: 22px;
     font-weight: bold;
 }
 
-.call-to-action  {
-    color:  rgb(216, 211, 211);
+.call-to-action {
+    color: rgb(216, 211, 211);
     margin-top: 20px;
     padding: 0px 25px 0px 25px;
 }
 
-.email-account  {
+.email-account {
     color: rgb(185, 176, 176);
     padding: 15px 0px 15px 23px;
     margin: 30px 30px 0px 30px;
@@ -397,7 +423,7 @@ body {
     background-color: white;
 }
 
-.call-to-action-button  {
+.call-to-action-button {
     color: white;
     margin-top: 30px;
     padding: 15px 0px 15px 0px;
@@ -407,68 +433,835 @@ body {
 }
 
 /* ==================fylo footer========= */
-.footer-container  {
+.footer-container {
     padding: 80% 0% 0% 0%;
     background-color: hsl(216, 53%, 9%);
     margin-top: -43%;
 }
 
-.footer-logo-box  {
+.footer-logo-box {
     padding-left: 40px;
 }
 
-.footer-logo-image  {
-
+.icon-location-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
 }
 
-.icon-location-container  {
-     display: flex;
-     gap: 20px;
-     padding-left: 30px;
-     margin-top: 30px;
-}
-
-.location-address  {
+.location-address {
     color: white;
     padding: 0px 60px 0px 0px;
     line-height: 21px;
 }
 
-.icon-phone-container  {
+.icon-phone-container {
     padding-left: 30px;
     margin-top: 20px;
     display: flex;
     gap: 20px;
 }
 
-.phone-number  {
+.phone-number {
     color: white;
 }
 
-.icon-email-container  {
+.icon-email-container {
     display: flex;
     gap: 20px;
     padding-left: 30px;
     margin-top: 30px;
 }
 
-.icon-email-account  {
+.icon-email-account {
     color: white;
 }
 
-.information-one  {
-     color: white;
+.information-one {
+    color: white;
     padding-left: 30px;
     margin-top: 30px;
 }
 
-.information-two  {
-     color: white;
-     padding-left: 30px;
-     margin-top: 30px;
+.information-two {
+    color: white;
+    padding-left: 30px;
+    margin-top: 30px;
 }
 
-.footer-images  {
+.footer-images {
     text-align: center;
     margin-top: 90px;
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(217, 28%, 15%);
+        padding: 40px 40px 50px 40px;
+        color: white;
+    }
+
+    .intro-logo {
+        width: 130px;
+    }
+
+    .intro-content {
+        color: whitesmoke;
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .intro-box {
+        display: flex;
+        gap: 25px;
+    }
+
+    /* ===========illustration-image================ */
+    .illustration-intro-box {
+        justify-self: center;
+        width: 100%;
+        background-color: hsl(217, 28%, 15%);
+
+    }
+
+    .illustration-intro {
+        width: 400px;
+        margin-left: 30%;
+        position: relative;
+    }
+
+    /* ==========curvy-image============ */
+    .curvy-mobile-box {
+        background-color: hsl(217, 28%, 15%);
+    }
+
+    .curvy-mobile {
+        margin-top: -40px;
+        margin-left: 35%;
+    }
+
+    /* ========directory-content============== */
+    .overall-directory {
+        margin-top: 20px;
+        padding: 0px 35px 0px 25px;
+    }
+    
+    .directory-container {
+        display: flex;
+        color: hsl(176, 68%, 64%);
+        border-bottom: 2px solid hsl(176, 68%, 64%);
+        gap: 5px;
+        font-size: 23px;
+    }
+    
+    .directory-content {
+        margin-bottom: 5px;
+    }
+
+    .arrow-icon  {
+        margin-top: 5px;
+        width: 20px;
+    }
+
+    .patel-and-bruce  {
+        display: flex;
+    }
+
+    /* ============patel testimony */
+.patel-container {
+    margin-top: 24.5%;
+}
+
+.patel-testimony {
+    color: rgb(216, 211, 211);
+    line-height: 23px;
+    font-size: 13px;
+    justify-self: center;
+    padding: 30px 30px 0px 33px;
+    margin: 0px 25px 0px 25px;
+    max-width: 320px;
+    height: 165px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-top: -7px;
+    position: relative;
+}
+
+.profile-one {
+    color: white;
+    display: flex;
+    padding: 0px 60px 0px 60px;
+    gap: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.patel-image {
+    width: 40px;
+    border-radius: 20px;
+}
+
+.profile-name {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile-title {
+    margin-top: 23px;
+    margin-left: -95px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+   /* ===========bruce-testomony */
+    .bruce-testimony {
+        color: rgb(216, 211, 211);
+        line-height: 23px;
+        font-size: 13px;
+        justify-self: end;
+        padding: 30px 25px 0px 33px;
+        margin: 150px 25px 0px 25px;
+        max-width: 310px;
+        height: 165px;
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    .profile-two {
+        color: white;
+        display: flex;
+        padding: 0px 60px 0px 60px;
+        gap: 10px;
+        margin-top: -50px;
+        position: relative;
+    }
+    
+    .bruce-image {
+        width: 40px;
+        border-radius: 20px;
+    }
+    
+    .profile-2-name {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .profile-2-title {
+        margin-top: 23px;
+        margin-left: -48%;
+        font-size: 13px;
+        opacity: 0.8;
+    }
+
+    /* ========iva-testimony */
+    .iva-container {
+        margin-top: 50px;
+    }
+    
+    .iva-testimony {
+        color: rgb(216, 211, 211);
+        line-height: 23px;
+        font-size: 13px;
+        justify-self: center;
+        justify-self: center;
+        padding: 30px 25px 0px 33px;
+        margin: 0px 25px 0px 25px;
+        max-width: 420px;
+        height: 165px;
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 5px;
+        margin-top: -7px;
+        position: relative;
+    }
+    
+    .profile-three {
+        color: white;
+        display: flex;
+        padding: 0px 60px 0px 60px;
+        gap: 10px;
+        margin-top: -70px;
+        margin-left: 120px;
+        position: relative;
+    }
+    
+    .iva-image {
+        width: 40px;
+        border-radius: 20px;
+    }
+    
+    .profile-3-name {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .profile-3-title {
+        margin-top: 23px;
+        margin-left: -14%;
+        font-size: 13px;
+        opacity: 0.8;
+    }
+
+    /* ===========get early access today========== */
+.call-to-action-container {
+    text-align: center;
+    margin: -500px 20px 0px 20px;
+    padding: 30px 0px 40px 0px;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+    position: relative;
+}
+
+.early-access {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    color: rgb(216, 211, 211);
+    margin-top: 20px;
+    padding: 0px 25px 0px 25px;
+}
+
+.email-account {
+    color: rgb(185, 176, 176);
+    padding: 15px 0px 15px 23px;
+    margin: 30px 30px 0px 30px;
+    border-radius: 30px;
+    text-align: start;
+    font-size: 13px;
+    background-color: white;
+}
+
+.call-to-action-button {
+    color: white;
+    margin-top: 30px;
+    padding: 15px 0px 15px 0px;
+    margin: 30px 30px 0px 30px;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+}
+
+.footer-container {
+    padding: 40% 0% 0% 0%;
+    background-color: hsl(216, 53%, 9%);
+    margin-top: -20%;
+}
+}
+
+@media only screen and ( min-width: 1024px )  {
+    /* ===========illustration-image================ */
+.illustration-intro-box {
+    justify-self: center;
+    width: 100%;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.illustration-intro {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* ==========curvy-image============ */
+.curvy-mobile-box {
+    background-color: hsl(217, 28%, 15%);
+}
+
+.curvy-mobile {
+    margin-top: 10%;
+    width: 100%;
+    margin-left: -4px;
+}
+
+/* ==========intro bold content============ */
+.overall-intro  {
+    margin-top: -45%;
+}
+
+.intro-content-container {
+    width: 100%;
+    margin-top: -30%;
+}
+
+.intro-content-box {
+    color: white;
+    text-align: center;
+    padding: 0px 250px 0px 250px;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+/* =========intro fade content========= */
+.intro-fade-container {
+    width: 100%;
+    margin-top: -43px;
+    background-color:hsl(217, 28%, 15%);
+}
+
+.intro-fade-box {
+    color: white;
+    text-align: center;
+    padding: 60px 210px 0px 210px;
+    line-height: 30px;
+    font-size: 23px;
+    opacity: 0.8;
+}
+
+.get-stsrted-button {
+    color: white;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    background-color: hsl(198, 60%, 50%);
+    padding: 15px 0px 15px 0px;
+    width: 220px;
+    justify-self: center;
+    border-radius: 30px;
+    font-weight: bold;
+    position: relative;
+}
+
+/* ==============access your files, anywhere */
+.access-plus-security-container  {
+     display: flex;
+}
+
+.access-container {
+    margin-top: 150px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.access-image {
+    justify-self: center;
+}
+
+.access-header {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.access-box {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 100px 0px 100px;
+    font-size: 15px;
+}
+
+/* ==============security you can trust */
+.security-container {
+    margin-top: 130px;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.security-image {
+    justify-self: center;
+}
+
+.security-header {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.security-box {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 80px 0px 80px;
+    font-size: 15px;
+}
+
+
+/* ==============real-time collaboration */
+.collaboration-plus-store-container  {
+    display: flex;
+}
+
+.collaboration-container {
+    margin-top: 100px;
+}
+
+.collaboration-image {
+    justify-self: center;
+}
+
+.collaboration-header {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.collaboration-box {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 57px 0px 57px;
+    font-size: 15px;
+}
+
+/* ==============store any type of file */
+.store-container {
+    margin-top: 100px;
+}
+
+.store-image {
+    justify-self: center;
+}
+
+.store-header {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.store-box {
+    color: rgb(243, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 130px 0px 130px;
+    font-size: 15px;
+}
+
+/* ==========stay productive, wherever you are======= */
+.overall-productive-container  {
+    display: flex;
+    margin: 0px 100px 0px 40px;
+    overflow: hidden;
+    width: 60pc;
+}
+
+.illustration-container {
+    margin-top: 150px;
+    justify-self: start;
+}
+
+.illustration-image {
+    width: 400px;
+}
+
+.productive-plus-directory-container  {
+    margin-top: 17%;
+    margin-left: -9%;
+    padding-left: 0px;
+}
+
+.stay-productive-header {
+    color: white;
+    padding-left: 140px;
+    padding-right: 180px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.stay-productive-content-one {
+    color: white;
+    margin-top: 20px;
+    padding: 0px 10px 0px 140px;
+}
+
+.stay-productive-content-two {
+    color: white;
+    margin-top: 20px;
+    padding: 0px 10px 0px 140px;
+}
+
+/* ========directory-content============== */
+.overall-directory {
+    margin-top: 20px;
+}
+
+.directory-container {
+    display: flex;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    gap: 5px;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    margin-left: 17%;
+}
+
+.directory-content {
+    margin-bottom: 5px;
+}
+
+.arrow-icon  {
+    margin-top: -2px;
+}
+
+/* ==========testimonies  */
+.testimonies-container {
+    padding-bottom: 50%;
+    display: flex;
+}
+
+.quote-image {
+    width: 20px;
+    margin-left: 30px;
+}
+
+/* ============patel testimony */
+.patel-container {
+    margin-top: 23%;
+    margin-bottom: 20%;
+}
+
+.patel-testimony {
+    color: rgb(216, 211, 211);
+    line-height: 23px;
+    font-size: 13px;
+    justify-self: center;
+    padding: 30px 25px 0px 33px;
+    margin: -7px 25px 0px 25px;
+    max-width: 310px;
+    height: 165px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    position: relative;
+}
+
+.profile-one {
+    color: white;
+    display: flex;
+    padding: 0px 60px 0px 60px;
+    gap: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.patel-image {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.profile-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-title {
+    margin-top: 17px;
+    margin-left: -80px;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* ============bruce testimony */
+.bruce-container {
+    margin-top: 26%;
+}
+
+.bruce-testimony {
+    color: rgb(216, 211, 211);
+    line-height: 23px;
+    font-size: 13px;
+    justify-self: center;
+    padding: 30px 25px 0px 33px;
+    margin: 0px 25px 0px 25px;
+    max-width: 310px;
+    height: 165px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-top: -7px;
+    position: relative;
+}
+
+.profile-two {
+    color: white;
+    display: flex;
+    padding: 0px 60px 0px 60px;
+    gap: 10px;
+    margin-top: -50px;
+    position: relative;
+}
+
+.bruce-image {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.profile-2-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-2-title {
+    margin-top: 17px;
+    margin-left: -42%;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* ============bruce testimony */
+.iva-container {
+    margin-top: 17%;
+}
+
+.iva-testimony {
+    color: rgb(216, 211, 211);
+    line-height: 23px;
+    font-size: 13px;
+    justify-self: center;
+    padding: 30px 25px 0px 33px;
+    margin: 0px 25px 0px 25px;
+    max-width: 310px;
+    height: 165px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin-top: -7px;
+    position: relative;
+}
+
+.profile-three {
+    color: white;
+    display: flex;
+    padding: 0px 0px 0px 20px;
+    gap: 10px;
+    margin-top: -50px;
+    margin-left: 11%;
+    position: relative;
+}
+
+.iva-image {
+    width: 30px;
+    border-radius: 20px;
+}
+
+.profile-3-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-3-title {
+    margin-top: 17px;
+    margin-left: -22%;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+.call-to-action-container {
+    justify-self: center;
+    width: 70%;
+    padding: 30px 0px 40px 0px;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+    position: relative;
+}
+
+.email-plus-action-container  {
+    display: flex;
+}
+
+.call-to-action {
+    color: rgb(216, 211, 211);
+    margin-top: 20px;
+    padding: 0px 25px 0px 25px;
+}
+
+.email-account {
+    color: rgb(185, 176, 176);
+    padding: 15px 0px 15px 23px;
+    margin: 30px 15px 0px 50px;
+    border-radius: 30px;
+    text-align: start;
+    font-size: 13px;
+    background-color: white;
+    width: 50%;
+}
+
+.call-to-action-button {
+    color: white;
+    margin-top: 30px;
+    padding: 15px 0px 15px 0px;
+    margin: 30px 50px 0px 15px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+}
+
+.footer-container {
+    padding: 20% 0% 0% 0%;
+    background-color: hsl(216, 53%, 9%);
+    margin-top: -12%;
+}
+
+.footer-box  {
+    display: flex;
+    padding-right: 5%;
+}
+
+.icon-location-container {
+    display: flex;
+    gap: 20px;
+    padding-right: 0px;
+    margin-top: 30px;
+}
+
+.location-address {
+    color: white;
+    width: 30%;
+    line-height: 21px;
+}
+
+.phone-plus-email-container  {
+    margin-left: -35pc;
+    margin-top: 7px;
+    margin-right: 50px;
+}
+
+.icon-phone-container {
+    padding-left: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.phone-number {
+    color: white;
+}
+
+.icon-email-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.icon-email-account {
+    color: white;
+}
+
+.information-one {
+    color: white;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.information-two {
+    color: white;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-right: 50px;
+     
+}
+
+.footer-images {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
 }
