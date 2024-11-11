@@ -780,6 +780,11 @@ body {
 }
 
 /* ==========intro bold content============ */
+.overall-head-content  {
+    justify-self: center;
+    align-items: center;
+}
+
 .overall-intro  {
     margin-top: -45%;
 }
@@ -937,34 +942,42 @@ body {
 /* ==========stay productive, wherever you are======= */
 .overall-productive-container  {
     display: flex;
-    margin: 0px 100px 0px 40px;
+    margin: 0px 30px 0px 50px;
     overflow: hidden;
-    width: 60pc;
+    width: 58pc;
+    justify-self: center;
+    align-items: center;
 }
 
 .illustration-container {
     margin-top: 150px;
     justify-self: start;
+    justify-self: center;
 }
 
 .illustration-image {
     width: 400px;
+    justify-self: center;
 }
 
 .productive-plus-directory-container  {
     margin-top: 17%;
     margin-left: -9%;
     padding-left: 0px;
+    justify-self: center;
+    align-items: center;
 }
 
 .stay-productive-header {
     color: white;
-    padding-left: 140px;
-    padding-right: 180px;
+    margin-left: 140px;
+    padding-right: 10px;
+    padding-left: 1px;
     font-size: 20px;
     font-weight: bolder;
     margin-top: 40px;
     line-height: 30px;
+    width: 200px;
 }
 
 .stay-productive-content-one {
@@ -977,6 +990,17 @@ body {
     color: white;
     margin-top: 20px;
     padding: 0px 10px 0px 140px;
+}
+
+.directory-container  {
+    margin-right: 50%;
+    align-items: center;
+}
+
+.directory-content  {
+    margin-left: 2%;
+    justify-self: center;
+    align-items: center;
 }
 
 /* ========directory-content============== */
@@ -1006,6 +1030,8 @@ body {
 .testimonies-container {
     padding-bottom: 50%;
     display: flex;
+    justify-self: center;
+    align-items: center;
 }
 
 .quote-image {
@@ -1100,14 +1126,14 @@ body {
 
 .profile-2-title {
     margin-top: 17px;
-    margin-left: -42%;
+    margin-left: -48%;
     font-size: 10px;
     opacity: 0.8;
 }
 
 /* ============bruce testimony */
 .iva-container {
-    margin-top: 17%;
+    margin-top: 5%;
 }
 
 .iva-testimony {
@@ -1147,7 +1173,7 @@ body {
 
 .profile-3-title {
     margin-top: 17px;
-    margin-left: -22%;
+    margin-left: -23%;
     font-size: 10px;
     opacity: 0.8;
 }
@@ -1192,8 +1218,10 @@ body {
     background-color: hsl(198, 60%, 50%);
 }
 
-.footer-container {
-    padding: 20% 0% 0% 0%;
+.footer-overall {
+    padding: 20% 3% 0% 3%;
+    justify-self: center;
+    align-items: center;
     background-color: hsl(216, 53%, 9%);
     margin-top: -12%;
 }
